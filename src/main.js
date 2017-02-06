@@ -2,6 +2,12 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import Vuelidate from 'vuelidate'
+import axios from 'axios'
+
+Vue.use(Vuelidate)
+
+axios.defaults.baseURL = 'https://quentinrillet.fr/api'
 
 /* eslint-disable no-new */
 new Vue({
