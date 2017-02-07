@@ -10,34 +10,39 @@
                     <div class="row">
                         <div class="input-field col s6">
                             <i class="material-icons prefix">insert_emoticon</i>
-                            <label for="nom">Nom</label>
-                            <input id="nom" v-model="form.nom" required class="validate" @input="$v.form.nom.$touch()">
+                            <label for="nom" data-error="wrong">Nom</label>
+                            <input id="nom" v-model="form.nom" required class="validate" @input="$v.form.nom.$touch()" >
+                            <span class="form-group__message" v-if="!$v.form.nom.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.nom.minLength">Min 2 caractères</span>
                         </div>
                         <div class="input-field col s6">
-                            <label for="prenom">Prenom</label>
+                            <label for="prenom">Prénom</label>
                             <input id="prenom" v-model="form.prenom" required class="validate" @input="$v.form.prenom.$touch()">
+                            <span class="form-group__message" v-if="!$v.form.prenom.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.prenom.minLength">Min 2 caractères</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s6">
                             <i class="material-icons prefix">contact_mail</i>
                             <label for="email">Email</label>
-                            <input id="email" v-model="form.email" required class="validate">
+                            <input id="email" v-model="form.email" required class="validate" @input="$v.form.email.$touch()">
+                            <span class="form-group__message" v-if="!$v.form.email.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.email.email">Email non valide</span>
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">email</i>
                             <label for="sujet">Sujet</label>
-                            <input id="sujet" v-model="form.subject" required class="validate">
+                            <input id="sujet" v-model="form.subject" required class="validate" @input="$v.form.subject.$touch()">
+                            <span class="form-group__message" v-if="!$v.form.subject.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.subject.minLength">Min 2 caractères</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
                             <i class="material-icons prefix">mode_edit</i>
                             <label for="content">Contenu</label>
-                            <textarea id="content" class="materialize-textarea validate" v-model="form.content" required></textarea>
+                            <textarea id="content" class="materialize-textarea" v-model="form.content" required @input="$v.form.content.$touch()"></textarea>
+                            <span class="form-group__message" v-if="!$v.form.content.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.content.minLength">Min 2 caractères</span>
                         </div>
                     </div>
-                    <button class="btn waves-effect waves-light" type="submit" name="action" @click="envoyer">Envoyer
+                    <button class="btn waves-effect waves-light" type="submit" name="action" @click.prevent="envoyer">Envoyer
                         <i class="material-icons right">send</i>
                     </button>
                 </form>
@@ -47,10 +52,12 @@
 </template>
 
 <script type="text/javascript" language="Javascript">
-import required from 'vuelidate/lib/validators'
+import { required, minLength, email } from 'vuelidate/lib/validators'
+import { validationMixin } from 'vuelidate'
 import axios from 'axios'
 
 export default {
+  mixins: [validationMixin],
   data () {
     return {
       form: {
@@ -65,22 +72,48 @@ export default {
   validations: {
     form: {
       nom: {
-        required
+        required,
+        minLength: minLength(2)
       },
       prenom: {
-        required
+        required,
+        minLength: minLength(2)
+      },
+      email: {
+        required,
+        email
+      },
+      subject: {
+        required,
+        minLength: minLength(2)
+      },
+      content: {
+        required,
+        minLength: minLength(2)
       }
     }
   },
   methods: {
     envoyer () {
-      axios.post('/message', this.form)
-      .then((response) => {
-        console.log(response)
-      })
-      .catch((response) => {
-        console.log(response)
-      })
+      if (!this.$v.form.$invalid) {
+        axios.post('/messages', this.form)
+        .then((response) => {
+          console.log(response)
+          this.form = {
+            nom: '',
+            prenom: '',
+            email: '',
+            subject: '',
+            content: ''
+          }
+          window.alert('Votre message à bien été posté, un mail est envoyé pour prévenir de ce nouveau message! Merci.')
+        })
+        .catch((response) => {
+          console.log(response)
+        })
+      } else {
+        window.alert('Veuillez remplir correctement le formulaire')
+      }
     }
   }
 }

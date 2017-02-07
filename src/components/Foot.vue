@@ -29,7 +29,8 @@
                             <ul class="collection with-header">
                                 <li class="collection-item"><div>VueJs <a href="https://vuejs.org/" class="secondary-content" target="_blank"><i class="material-icons">send</i></a></div></li>
                                 <li class="collection-item"><div>Materialize CSS <a href="http://materializecss.com/" class="secondary-content" target="_blank"><i class="material-icons">send</i></a></div></li>
-                                <li class="collection-item"><div>Dépot Git <a href="https://github.com/QuentinRillet/Curriculum-Vitae" class="secondary-content" target="_blank"><i class="material-icons">send</i></a></div></li>
+                                <li class="collection-item"><div>Dépot Git - Front-end <a href="https://github.com/QuentinRillet/Curriculum-Vitae" class="secondary-content" target="_blank"><i class="material-icons">send</i></a></div></li>
+                                <li class="collection-item"><div>Dépot Git - Back-end <a href="https://github.com/QuentinRillet/Curriculum-Vitae-Back" class="secondary-content" target="_blank"><i class="material-icons">send</i></a></div></li>
                             </ul>
                         </p>
                     </div>
@@ -38,7 +39,8 @@
             <div class="footer-copyright">
                 <div class="container">
                     © 2017 Copyright - Rillet Quentin
-                    <a class="grey-text text-lighten-4 right" href="http://quentinrillet.fr">quentinrillet.fr</a>
+                    <a class="grey-text text-lighten-4 right" href="https://quentinrillet.fr">quentinrillet.fr</a>
+                    <a class="grey-text text-lighten-4 left" href="https://quentinrillet.fr/login">administration</a>
 
                 </div>
             </div>
