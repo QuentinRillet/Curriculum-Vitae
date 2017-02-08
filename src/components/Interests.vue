@@ -19,7 +19,7 @@
                                 <div class="card-content">
                                     <p>Administrateur de MIAGE CONNECTION</p>
                                 </div>
-                                <a href="https://www.miage.net/">
+                                <a href="https://www.miage.net/" target="_blank">
                                     <div class="card-action hoverable">MIAGE CO</div>
                                 </a>
                             </div>
@@ -36,7 +36,7 @@
                                     <p>Président du Bureau des élèves</p>
                                     <p><i>Année 2016 - 2017</i></p>
                                 </div>
-                                <a href="https://www.facebook.com/miageplusamiens/">
+                                <a href="https://www.facebook.com/miageplusamiens/" target="_blank">
                                     <div class="card-action hoverable">MIAGE PLUS</div>
                                 </a>
                             </div>
@@ -50,12 +50,12 @@
                                     <img src="../assets/badminton.jpg" class="responsive-img">
                                 </div>
                                 <div class="card-content">
-                                    <p>Ancien membre de l'équipe Nationnal 3</p>
+                                    <p>Ancien membre de l'équipe Nationale 3</p>
                                     <p><i>Saison 2012- 2013</i></p>
                                     <p>-</p>
                                     <p>Toujours joueur en loisir actuellement</p>
                                 </div>
-                                <a href="http://usl-badminton.fr/">
+                                <a href="http://usl-badminton.fr/" target="_blank">
                                     <div class="card-action hoverable">USL-Badminton</div>
                                 </a>
                             </div>

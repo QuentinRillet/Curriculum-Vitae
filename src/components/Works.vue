@@ -87,7 +87,8 @@
                                 </div>
                                 <div class="card-content">
                                     <img class="responsive-img" src="../assets/Sated.png" style="max-width: 40%">
-                                    <p>Projet mettant en place un moyen d'organisation et de gestion au sein de l'association SATED afin d'alléger l'administration.</p>
+                                    <p>L'association propose aux familles d'enfants autistes et TED des weekends, des séjours, des journées récréatives...</p>
+                                    <p>Le projet met en place un moyen d'organisation et de gestion des familles au sein de l'association SATED afin d'alléger l'administration et centraliser les demandes</p>
                                     <p>-</p>
                                     <p><i>Projet MIAGE</i></p>
                                 </div>

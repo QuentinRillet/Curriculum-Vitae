@@ -11,27 +11,27 @@
                         <div class="input-field col s6">
                             <i class="material-icons prefix">insert_emoticon</i>
                             <label for="nom" data-error="wrong">Nom</label>
-                            <input id="nom" v-model="form.nom" required class="validate" @input="$v.form.nom.$touch()" >
-                            <span class="form-group__message" v-if="!$v.form.nom.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.nom.minLength">Min 2 caractères</span>
+                            <input type="text" id="nom" v-model="form.nom" required class="validate" @input="$v.form.nom.$touch()" >
+                            <span v-if="!$v.form.nom.required">Champ requis</span><span v-if="!$v.form.nom.minLength">Min 2 caractères</span>
                         </div>
                         <div class="input-field col s6">
                             <label for="prenom">Prénom</label>
-                            <input id="prenom" v-model="form.prenom" required class="validate" @input="$v.form.prenom.$touch()">
-                            <span class="form-group__message" v-if="!$v.form.prenom.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.prenom.minLength">Min 2 caractères</span>
+                            <input type="text" id="prenom" v-model="form.prenom" required class="validate" @input="$v.form.prenom.$touch()">
+                            <span v-if="!$v.form.prenom.required">Champ requis</span><span v-if="!$v.form.prenom.minLength">Min 2 caractères</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s6">
                             <i class="material-icons prefix">contact_mail</i>
                             <label for="email">Email</label>
-                            <input id="email" v-model="form.email" required class="validate" @input="$v.form.email.$touch()">
-                            <span class="form-group__message" v-if="!$v.form.email.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.email.email">Email non valide</span>
+                            <input type="email" id="email" v-model="form.email" required class="validate" @input="$v.form.email.$touch()">
+                            <span v-if="!$v.form.email.required">Champ requis</span><span v-if="!$v.form.email.email">Email non valide</span>
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">email</i>
                             <label for="sujet">Sujet</label>
-                            <input id="sujet" v-model="form.subject" required class="validate" @input="$v.form.subject.$touch()">
-                            <span class="form-group__message" v-if="!$v.form.subject.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.subject.minLength">Min 2 caractères</span>
+                            <input type="text" id="sujet" v-model="form.subject" required class="validate" @input="$v.form.subject.$touch()">
+                            <span v-if="!$v.form.subject.required">Champ requis</span><span v-if="!$v.form.subject.minLength">Min 2 caractères</span>
                         </div>
                     </div>
                     <div class="row">
@@ -39,7 +39,7 @@
                             <i class="material-icons prefix">mode_edit</i>
                             <label for="content">Contenu</label>
                             <textarea id="content" class="materialize-textarea" v-model="form.content" required @input="$v.form.content.$touch()"></textarea>
-                            <span class="form-group__message" v-if="!$v.form.content.required">Champ requis</span><span class="form-group__message" v-if="!$v.form.content.minLength">Min 2 caractères</span>
+                            <span v-if="!$v.form.content.required">Champ requis</span><span v-if="!$v.form.content.minLength">Min 2 caractères</span>
                         </div>
                     </div>
                     <button class="btn waves-effect waves-light" type="submit" name="action" @click.prevent="envoyer">Envoyer
