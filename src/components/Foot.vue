@@ -1,5 +1,5 @@
 <template>
-        <footer class="page-footer">
+        <footer class="page-footer teal lighten-3">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
@@ -40,7 +40,7 @@
                 <div class="container">
                     © 2017 Copyright - Rillet Quentin
                     <a class="grey-text text-lighten-4 right" href="https://quentinrillet.fr">quentinrillet.fr</a>
-                    <a class="grey-text text-lighten-4 left" href="https://quentinrillet.fr/login">administration</a>
+                    <a class="grey-text text-lighten-4 left" href="https://quentinrillet.fr/admin">administration</a>
 
                 </div>
             </div>

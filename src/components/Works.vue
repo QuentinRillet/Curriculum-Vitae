@@ -9,7 +9,7 @@
                     <!-- Experience professionnelle -->
                     <div class="row z-depth-5 blue-grey lighten-5" style="padding-top: 40px">
                         <div class="col s12">
-                            <h4><i class="fa fa-handshake-o"></i> Professionnelle - Projets réalisé au sein d'I.E.S</h4>
+                            <h4><i class="fa fa-handshake-o"></i> Professionnelle - Projets réalisés au sein d'I.E.S</h4>
                             <a href="http://i-e-s.fr/" target="_blank">
                                 <img class="responsive-img" src="../assets/logo-ies.png" style="max-width:20%">
                             </a>

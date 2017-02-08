@@ -69,7 +69,7 @@
                                     <img src="../assets/voyage.jpg" class="responsive-img">
                                 </div>
                                 <div class="card-content">
-                                    <p>Plusieurs voyage notamment en europe centrale (République Tchèques, Croatie, Allemagne, Belgique, Pays-Bas)</p>
+                                    <p>Plusieurs voyage notamment en Europe centrale (République Tchèque, Croatie, Allemagne, Belgique, Pays-Bas)</p>
                                 </div>
                             </div>
                         </div>
