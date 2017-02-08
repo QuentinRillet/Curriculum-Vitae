@@ -9,7 +9,10 @@
                                 <i class="fa fa-phone"></i> Phone: <a href="tel:+33619727002">+33 6 19 72 70 02</a>
                             </li>
                             <li class="grey-text text-lighten-3">
-                                <i class="fa fa-envelope"></i> Email: <a href="mailto:quentin.rillet@gmail.com">quentin.rillet@gmail.com</a>
+                                <i class="fa fa-envelope"></i> Email: <a href="mailto:quentin.rillet@gmail.com"> quentin.rillet@gmail.com</a>
+                            </li>
+                            <li class="grey-text text-lighten-3">
+                                <i class="fa fa-twitter"></i> Twitter: <a href="https://twitter.com/RilletQuentin"> https://twitter.com/RilletQuentin</a>
                             </li>
                             <li class="grey-text text-lighten-3">
                                 <i class="fa fa-linkedin"></i> Linked In:<a href="https://www.linkedin.com/in/quentinrillet/"> https://www.linkedin.com/in/quentinrillet</a>
