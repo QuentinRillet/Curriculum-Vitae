@@ -63,7 +63,7 @@
                         <div class="col s12 m3">
                             <div class="card">
                                 <div class="card-content white-text lime lighten-2">
-                                    <span class="card-title">Voyage</span>
+                                    <span class="card-title">Voyages</span>
                                 </div>
                                 <div class="card-image">
                                     <img src="../assets/voyage.jpg" class="responsive-img">

@@ -14,8 +14,8 @@
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
                                     href="http://miage.mastersticamiens.fr/" target="_blank"
-                                    alt="MIAGE Amiens" title="MIAGE Amiens">MIAGE - Amiens</a></h2><span>2015 - 2017</span>
-                                <p>Diplôme universitaire français de niveau Bac+5, alliant une double compétence en informatique et en gestion, destiné à former des cadres d'entreprise experts en ingénierie et management des systèmes d'information</p>
+                                    alt="MIAGE Amiens" title="MIAGE Amiens">Master MIAGE - Amiens</a></h2><span>2015 - 2017</span>
+                                <p>Diplôme universitaire français de niveau Bac+5, alliant une double compétence en informatique et en gestion, destiné à former des cadres d'entreprise experts en ingénierie et management des systèmes d'information.</p>
                                 <p>-</p>
                                 <p>Réalisé en alternance chez <a href="http://i-e-s.fr">I.E.S</a></p>
                                 <p>-</p>
@@ -51,7 +51,7 @@
                             <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
                                     href="http://lycees.ac-rouen.fr/prevert/" target="_blank"
                                     alt="Lycée Polyvalent Jacques Prévert - Pont-Audemer" title="Lycée Polyvalent Jacques Prévert - Pont-Audemer">Lycée Polyvalent Jacques Prévert - Pont-Audemer</a></h2><span>2006 - 2011</span>
-                                <p>Baccalaureat scientifique, <i>spécialité : Science de la Vie et de la Terre</i> </p>
+                                <p>Baccalaureat scientifique, <i>spécialité : Science de la Vie et de la Terre</i>. </p>
                             </div>
                         </div>
                     </div>

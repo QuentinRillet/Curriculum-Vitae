@@ -11,28 +11,26 @@
                     <div class="skill-line z-depth-1">
                         <div class="row blue lighten-1 white-text" style="padding: 40px">
                             <div class="col m4 s12">
-                                <div class="skill-bar col m10">
-                                    <h3>Techniques</h3>
-                                    <span>HTML / CSS</span>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 90%;"><i class="fa fa-circle"></i></div>
-                                    </div>
-                                    <span>PHP / MySQL</span>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 95%;"><i class="fa fa-circle"></i></div>
-                                    </div>
-                                    <span>Python</span>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 35%;"><i class="fa fa-circle"></i></div>
-                                    </div>
-                                    <span>Ruby</span>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 35%;"><i class="fa fa-circle"></i></div>
-                                    </div>
-                                    <span>Système UNIX</span>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 60%;"><i class="fa fa-circle"></i></div>
-                                    </div>
+                                <h3>Techniques</h3>
+                                <span>HTML / CSS</span>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 90%;"><i class="fa fa-circle"></i></div>
+                                </div>
+                                <span>PHP / MySQL</span>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 95%;"><i class="fa fa-circle"></i></div>
+                                </div>
+                                <span>Python</span>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 35%;"><i class="fa fa-circle"></i></div>
+                                </div>
+                                <span>Ruby</span>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 35%;"><i class="fa fa-circle"></i></div>
+                                </div>
+                                <span>Système UNIX</span>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 60%;"><i class="fa fa-circle"></i></div>
                                 </div>
                             </div>
                             <div class="col m4 s12">
@@ -59,12 +57,10 @@
                                 </div>
                             </div>
                             <div class="col m4 s12">
-                                <div class="col m10 offset-m2">
-                                    <h3>Forces</h3>
-                                    <p class="left-align"><i class="fa fa-check"></i> Indépendance</p>
-                                    <p class="left-align"><i class="fa fa-check"></i> Travail en équipe</p>
-                                    <p class="left-align"><i class="fa fa-check"></i> Professionalisme</p>
-                                </div>
+                                <h3>Forces</h3>
+                                <p class="center-align"><i class="fa fa-check"></i> Indépendance</p>
+                                <p class="center-align"><i class="fa fa-check"></i> Travail en équipe</p>
+                                <p class="center-align"><i class="fa fa-check"></i> Professionalisme</p>
                             </div>
                         </div>
                     </div>

@@ -11,8 +11,8 @@
                         <h2>RILLET Quentin</h2>
                         <span><h4>Chef de projet, Analyste programmeur</h4></span>
                         <p>Bonjour, je suis Quentin RILLET.<br>
-                            Etudiant en dernière année de Master Miage (Méthode Informatique Appliquée à la gestion de
-                            l'entreprise)</p>
+                            Etudiant en dernière année de Master MIAGE (Méthode Informatique Appliquée à la Gestion de
+                            l'Entreprise)</p>
                         <h5>Passioné – Innovant – Indépendant</h5>
                         <a href="http://quentinrillet.fr/CV-Resume-Quentin-Rillet.pdf"
                            class="btn btn-blue waves-effect" target="_blank">CV</a>
