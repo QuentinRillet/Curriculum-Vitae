@@ -108,12 +108,17 @@ export default {
             content: ''
           }
           window.alert('Votre message à bien été posté, un mail est envoyé pour prévenir de ce nouveau message! Merci.')
+
+          // Materialize.toast('Votre message à bien été posté, un mail est envoyé pour prévenir de ce nouveau message! Merci.', 4000)
         })
         .catch((response) => {
+          window.alert('Erreur, merci de bien vouloir m\'envoyer un mail')
+          // Materialize.toast('Erreur, merci de bien vouloir m\'envoyer un mail', 4000)
           console.log(response)
         })
       } else {
         window.alert('Veuillez remplir correctement le formulaire')
+        // Materialize.toast('Veuillez remplir correctement le formulaire', 4000, null, null)
       }
     }
   }
