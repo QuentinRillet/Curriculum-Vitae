@@ -8,8 +8,8 @@
                 <div class="col m12">
                     <h2><i class="fa fa-plane"></i> Centre d'interêts</h2>
                     <div class="row">
-                        <div class="col s12 m3">
-                            <div class="card">
+                        <div class="col s12 l3 m6">
+                            <div class="card reveal">
                                 <div class="card-content white-text blue  darken-2">
                                     <span class="card-title">Miage Connection</span>
                                 </div>
@@ -24,8 +24,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col s12 m3">
-                            <div class="card">
+                        <div class="col s12 l3 m6">
+                            <div class="card reveal-1">
                                 <div class="card-content white-text teal lighten-3">
                                     <span class="card-title">Miage Plus</span>
                                 </div>
@@ -41,8 +41,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col s12 m3">
-                            <div class="card">
+                        <div class="col s12 l3 m6">
+                            <div class="card reveal-2">
                                 <div class="card-content white-text red lighten-1">
                                     <span class="card-title">Badminton</span>
                                 </div>
@@ -60,7 +60,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col s12 m3">
+                        <div class="col s12 l3 m6 reveal-3">
                             <div class="card">
                                 <div class="card-content white-text lime lighten-2">
                                     <span class="card-title">Voyages</span>

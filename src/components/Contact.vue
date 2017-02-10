@@ -3,31 +3,32 @@
     CONTACT
     -->
     <div>
-        <section id="contact" class="section scrollspy">
+        <section id="contact" class="section scrollspy reveal">
             <div class="row">
                 <h2><i class="fa fa-comments"></i> Contactez-moi</h2>
                 <form class="col s12 z-depth-5 white" style="padding: 40px">
                     <div class="row">
-                        <div class="input-field col s6">
+                        <div class="input-field col s12 m6">
                             <i class="material-icons prefix">insert_emoticon</i>
                             <label for="nom" data-error="wrong">Nom</label>
                             <input type="text" id="nom" v-model="form.nom" required class="validate" @input="$v.form.nom.$touch()" >
                             <span v-if="!$v.form.nom.required">Champ requis</span><span v-if="!$v.form.nom.minLength">Min 2 caractères</span>
                         </div>
-                        <div class="input-field col s6">
+                        <div class="input-field col s12 m6">
+                            <i class="material-icons prefix">insert_emoticon</i>
                             <label for="prenom">Prénom</label>
                             <input type="text" id="prenom" v-model="form.prenom" required class="validate" @input="$v.form.prenom.$touch()">
                             <span v-if="!$v.form.prenom.required">Champ requis</span><span v-if="!$v.form.prenom.minLength">Min 2 caractères</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="input-field col s6">
+                        <div class="input-field col s12 m6">
                             <i class="material-icons prefix">contact_mail</i>
                             <label for="email">Email</label>
                             <input type="email" id="email" v-model="form.email" required class="validate" @input="$v.form.email.$touch()">
                             <span v-if="!$v.form.email.required">Champ requis</span><span v-if="!$v.form.email.email">Email non valide</span>
                         </div>
-                        <div class="input-field col s6">
+                        <div class="input-field col s12 m6">
                             <i class="material-icons prefix">email</i>
                             <label for="sujet">Sujet</label>
                             <input type="text" id="sujet" v-model="form.subject" required class="validate" @input="$v.form.subject.$touch()">

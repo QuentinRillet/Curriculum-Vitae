@@ -10,7 +10,7 @@
                     </div>
                     <div class="skill-line z-depth-1">
                         <div class="row blue lighten-1 white-text" style="padding: 40px">
-                            <div class="col m4 s12">
+                            <div class="col m6 l4 s12 reveal">
                                 <h3>Techniques</h3>
                                 <span>HTML / CSS</span>
                                 <div class="progress">
@@ -33,7 +33,7 @@
                                     <div class="determinate white" style="width: 60%;"><i class="fa fa-circle bar-circle"></i></div>
                                 </div>
                             </div>
-                            <div class="col m4 s12">
+                            <div class="col m6 l4 s12 reveal">
                                 <h3>Frameworks</h3>
                                 <span>Symfony 3 (php)</span>
                                 <div class="progress" >
@@ -56,7 +56,7 @@
                                     <div class="determinate white" style="width: 50%;"><i class="fa fa-circle bar-circle"></i></div>
                                 </div>
                             </div>
-                            <div class="col m4 s12">
+                            <div class="col m6 l4 s12 reveal">
                                 <h3>Forces</h3>
                                 <p class="center-align"><i class="fa fa-check"></i> Autonome</p>
                                 <p class="center-align"><i class="fa fa-check"></i> Travail en équipe</p>

@@ -20,14 +20,7 @@
                   <div class="row">
                       <div class="col s12">
                           <div class="toc-wrapper pinned" style="top: 100px">
-                              <ul id="nav-mobile" class="section table-of-contents left-align">
-                                  <li><a href="#about">À mon sujet</a></li>
-                                  <li><a href="#works">Expériences</a></li>
-                                  <li><a href="#education">Écoles</a></li>
-                                  <li><a href="#skills">Compétences</a></li>
-                                  <li><a href="#interests">Loisirs</a></li>
-                                  <li><a href="#contact">Contactez-moi</a></li>
-                              </ul>
+                              <menu-nav pid="nav-mobile-side" pclass="section table-of-contents left-align" ></menu-nav>
                           </div>
                       </div>
                   </div>
@@ -40,6 +33,7 @@
 
 <script type="text/javascript" language="Javascript">
 import Navigate from './components/Navigate'
+import MenuNav from './components/Menu'
 import About from './components/About'
 import Works from './components/Works'
 import Education from './components/Education'
@@ -52,6 +46,7 @@ export default {
   name: 'app',
   components: {
     Navigate,
+    MenuNav,
     About,
     Works,
     Education,

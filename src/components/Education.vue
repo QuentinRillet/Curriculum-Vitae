@@ -10,7 +10,7 @@
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
-                        <div class="cd-timeline-block" >
+                        <div class="cd-timeline-block reveal" >
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
                                     href="http://miage.mastersticamiens.fr/" target="_blank"
@@ -22,7 +22,7 @@
                                 <p>Maitrise<i> Mention : <b>Bien</b></i></p>
                             </div>
                         </div>
-                        <div class="cd-timeline-block">
+                        <div class="cd-timeline-block reveal">
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
                                     href="https://www.u-picardie.fr/catalogue-formations/co/Catalogue_UPJV/co/LP_ResComm_ResGenieInfo.html"
@@ -36,7 +36,7 @@
                                 <p><i>Mention : <b>Bien</b></i></p>
                             </div>
                         </div>
-                        <div class="cd-timeline-block">
+                        <div class="cd-timeline-block reveal">
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
                                     href="https://uniform.unicaen.fr/catalogue/formation/dut/5267-dut-informatique?s=iut-caen&r=1291042344184"
@@ -46,7 +46,7 @@
                                 <p>Formation généraliste en informatique visant à concevoir, inventer ou perfectionner des logiciels destinés à des entreprises.</p>
                             </div>
                         </div>
-                        <div class="cd-timeline-block ">
+                        <div class="cd-timeline-block reveal">
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
                                     href="http://lycees.ac-rouen.fr/prevert/" target="_blank"

@@ -3,7 +3,7 @@
     ABOUT
     -->
     <div>
-        <section id="about" class="section scrollspy">
+        <section id="about" class="section scrollspy reveal">
             <div class="row">
                 <div class="col m12 ">
                     <div class="z-depth-5 blue lighten-5" style="padding-bottom: 40px">

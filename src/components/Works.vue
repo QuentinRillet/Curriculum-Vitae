@@ -15,8 +15,8 @@
                                 <img class="responsive-img" src="../assets/logo-ies.png" style="max-width:20%">
                             </a>
                             <div class="row">
-                                <div class="col s12 m4">
-                                    <div class="card hoverable">
+                                <div class="col s12 m6 l4">
+                                    <div class="card hoverable reveal">
                                         <div class="card-content white-text blue-grey">
                                             <span class="card-title">AZTEKA</span>
                                         </div>
@@ -33,8 +33,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col s12 m4">
-                                    <div class="card hoverable">
+                                <div class="col s12 m6 l4">
+                                    <div class="card hoverable reveal-1">
                                         <div class="card-content white-text blue-grey">
                                             <span class="card-title">CRM</span>
                                         </div>
@@ -44,8 +44,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col s12 m4">
-                                    <div class="card hoverable">
+                                <div class="col s12 m6 l4">
+                                    <div class="card hoverable reveal-2">
                                         <div class="card-content white-text  blue-grey">
                                             <span class="card-title">BDES</span>
                                         </div>
@@ -68,7 +68,7 @@
                     <div class="row z-depth-5 blue-grey lighten-5" style="padding-top: 40px">
                         <h4><i class="fa fa-laptop"></i> Scolaire</h4>
                         <div class="col s12 m6">
-                            <div class="card hoverable">
+                            <div class="card hoverable reveal">
                                 <div class="card-content white-text blue-grey">
                                     <span class="card-title">Puissance 4, 3D</span>
                                 </div>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                         <div class="col s12 m6">
-                            <div class="card hoverable">
+                            <div class="card hoverable reveal-1">
                                 <div class="card-content white-text blue-grey">
                                     <span class="card-title">Gestion d'association - SATED</span>
                                 </div>
