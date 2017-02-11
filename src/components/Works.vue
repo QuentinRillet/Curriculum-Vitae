@@ -10,7 +10,7 @@
                     <div class="row z-depth-5 blue-grey lighten-5" style="padding-top: 40px">
                         <div class="col s12">
                             <h4><i class="fa fa-handshake-o"></i> Professionnelle</h4>
-                            <p>Projets réalisés au sein d'I.E.S pendant mes 3 ans d'alternances.</p>
+                            <p>Projets réalisés au sein d'I.E.S pendant mes 3 ans d'alternance.</p>
                             <a href="http://i-e-s.fr/" target="_blank">
                                 <img class="responsive-img" src="../assets/logo-ies.png" style="max-width:20%">
                             </a>
@@ -40,7 +40,7 @@
                                         </div>
                                         <div class="card-content">
                                             <img class="responsive-img" src="../assets/logo-crm.png">
-                                            <p>Chef de projet et analyste programmeur sur le l'outil de gestion de la relation client. Programme utilisé uniquement en interne.</p>
+                                            <p>Chef de projet et analyste programmeur sur l'outil de gestion de la relation client. Programme utilisé uniquement en interne.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@
                                         </div>
                                         <div class="card-content">
                                             <img class="responsive-img" src="../assets/bdes.jpg" style="max-width: 40%">
-                                            <p>Chef de projet et analyste programmeur sur le développement et mise en place de la Base de Données Economique et Sociales.</p>
+                                            <p>Chef de projet et analyste programmeur sur le développement et mise en place de la Base de Données Economiques et Sociales.</p>
                                             <p><i>Toujours en cours de développement.</i></p>
                                         </div>
                                     </div>

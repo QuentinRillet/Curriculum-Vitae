@@ -5,9 +5,11 @@ import App from './App'
 import Vuelidate from 'vuelidate'
 import axios from 'axios'
 import ScrollReveal from 'scrollreveal'
-import 'jquery'
+let $ = window.jQuery = require('jquery')
 import 'materialize-css/bin/materialize.css'
 import 'materialize-css/bin/materialize'
+require('materialize-css/js/velocity.min')
+require('materialize-css/js/toasts')
 
 Vue.use(Vuelidate)
 
@@ -28,7 +30,6 @@ window.sr.reveal('.reveal-1', { duration: baseDuration + 300 })
 window.sr.reveal('.reveal-2', { duration: baseDuration + 600 })
 window.sr.reveal('.reveal-3', { duration: baseDuration + 900 })
 
-/* global $ */
 $('.scrollspy').scrollSpy({
   scrollOffset: 25
 })
