@@ -10,9 +10,9 @@
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
-                        <div class="cd-timeline-block reveal" >
+                        <div class="cd-timeline-block reveal " >
                             <div class="cd-timeline-img"></div>
-                            <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
+                            <div class="cd-timeline-content col m5 s12 z-depth-1 hoverable"><h2><a
                                     href="http://miage.mastersticamiens.fr/" target="_blank"
                                     alt="MIAGE Amiens" title="MIAGE Amiens">Master MIAGE - Amiens</a></h2><span>2015 - 2017</span>
                                 <p>Diplôme universitaire français de niveau Bac+5, alliant une double compétence en informatique et en gestion, destiné à former des cadres d'entreprise experts en ingénierie et management des systèmes d'information.</p>
@@ -22,9 +22,9 @@
                                 <p>Maitrise<i> Mention : <b>Bien</b></i></p>
                             </div>
                         </div>
-                        <div class="cd-timeline-block reveal">
+                        <div class="cd-timeline-block reveal ">
                             <div class="cd-timeline-img"></div>
-                            <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
+                            <div class="cd-timeline-content col m5 s12 z-depth-1 hoverable"><h2><a
                                     href="https://www.u-picardie.fr/catalogue-formations/co/Catalogue_UPJV/co/LP_ResComm_ResGenieInfo.html"
                                                                                          target="_blank"
                                                                                          alt="LP RGI"
@@ -36,9 +36,9 @@
                                 <p><i>Mention : <b>Bien</b></i></p>
                             </div>
                         </div>
-                        <div class="cd-timeline-block reveal">
+                        <div class="cd-timeline-block reveal ">
                             <div class="cd-timeline-img"></div>
-                            <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
+                            <div class="cd-timeline-content col m5 s12 z-depth-1 hoverable"><h2><a
                                     href="https://uniform.unicaen.fr/catalogue/formation/dut/5267-dut-informatique?s=iut-caen&r=1291042344184"
                                                                                          target="_blank"
                                                                                          alt="DUT Caen"
@@ -48,7 +48,7 @@
                         </div>
                         <div class="cd-timeline-block reveal">
                             <div class="cd-timeline-img"></div>
-                            <div class="cd-timeline-content col m5 s12 z-depth-1"><h2><a
+                            <div class="cd-timeline-content col m5 s12 z-depth-1 hoverable"><h2><a
                                     href="http://lycees.ac-rouen.fr/prevert/" target="_blank"
                                     alt="Lycée Polyvalent Jacques Prévert - Pont-Audemer" title="Lycée Polyvalent Jacques Prévert - Pont-Audemer">Lycée Polyvalent Jacques Prévert - Pont-Audemer</a></h2><span>2006 - 2011</span>
                                 <p>Baccalaureat scientifique, <i>spécialité : Science de la Vie et de la Terre</i>. </p>

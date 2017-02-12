@@ -26,10 +26,6 @@ import MenuNav from './Menu'
 export default{
   components: {
     MenuNav
-  },
-  data () {
-    return { }
   }
 }
-
 </script>

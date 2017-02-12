@@ -13,9 +13,6 @@
   export default{
     props: [
       'pid', 'pclass'
-    ],
-    data () {
-      return { }
-    }
+    ]
   }
 </script>

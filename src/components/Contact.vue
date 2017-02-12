@@ -3,10 +3,10 @@
     CONTACT
     -->
     <div>
-        <section id="contact" class="section scrollspy reveal">
+        <section id="contact" class="section scrollspy reveal ">
             <div class="row">
                 <h2><i class="fa fa-comments"></i> Contactez-moi</h2>
-                <form class="col s12 z-depth-5 white" style="padding: 40px">
+                <form class="col s12 z-depth-2 white hoverable" style="padding: 40px">
                     <div class="row">
                         <div class="input-field col s12 m6">
                             <i class="material-icons prefix">insert_emoticon</i>
@@ -43,9 +43,16 @@
                             <span v-if="!$v.form.content.required">Champ requis</span><span v-if="!$v.form.content.minLength">Min 2 caractères</span>
                         </div>
                     </div>
-                    <button class="btn waves-effect waves-light" type="submit" name="action" @click.prevent="envoyer">Envoyer
+                    <button class="btn waves-effect waves-light" :class="{disabled: sending}" type="submit" name="action" @click.prevent="envoyer">Envoyer
                         <i class="material-icons right">send</i>
                     </button>
+                    <div class="preloader-wrapper small" :class="{active: sending}">
+                      <div class="spinner-layer">
+                        <div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </div>
                 </form>
             </div>
         </section>
@@ -61,6 +68,7 @@ export default {
   mixins: [validationMixin],
   data () {
     return {
+      sending: false,
       form: {
         nom: '',
         prenom: '',
@@ -97,9 +105,9 @@ export default {
   methods: {
     envoyer () {
       if (!this.$v.form.$invalid) {
+        this.sending = true
         axios.post('/messages', this.form)
         .then((response) => {
-          console.log(response)
           this.form = {
             nom: '',
             prenom: '',
@@ -107,11 +115,13 @@ export default {
             subject: '',
             content: ''
           }
+          this.sending = false
           /* global Materialize */
           Materialize.toast('Votre message à bien été posté, un mail est envoyé pour prévenir de ce nouveau message! Merci.', 4000)
         })
         .catch((response) => {
           Materialize.toast('Erreur, merci de bien vouloir m\'envoyer un mail', 4000)
+          this.sending = false
           console.log(response)
         })
       } else {
