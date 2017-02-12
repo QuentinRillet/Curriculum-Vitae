@@ -10,6 +10,7 @@ import 'materialize-css/bin/materialize.css'
 import 'materialize-css/bin/materialize'
 require('materialize-css/js/velocity.min')
 require('materialize-css/js/toasts')
+require('materialize-css/js/tooltip')
 
 Vue.use(Vuelidate)
 
@@ -37,3 +38,5 @@ $('.button-collapse').sideNav({
   closeOnClick: true,
   draggable: true
 })
+
+$('.tooltipped').tooltip({delay: 50})

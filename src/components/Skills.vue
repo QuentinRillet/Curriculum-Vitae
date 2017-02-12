@@ -60,7 +60,8 @@
                 <div class="progress blue-grey">
                   <div class="determinate white" style="width: 35%;"><i class="fa fa-circle bar-circle"></i></div>
                 </div>
-                <div v-show="expand">
+                <transition name="fade">
+                  <div v-show="expand">
                   <span>Python</span>
                   <div class="progress blue-grey">
                     <div class="determinate white" style="width: 35%;"><i class="fa fa-circle bar-circle "></i></div>
@@ -74,6 +75,7 @@
                     <div class="determinate white" style="width: 100%;"><i class="fa fa-circle bar-circle"></i></div>
                   </div>
                 </div>
+                </transition>
               </div>
               <div class="col m6 l4 s12 reveal">
                 <h3>Frameworks</h3>
@@ -85,7 +87,7 @@
                 <div class="progress blue-grey">
                   <div class="determinate white" style="width: 90%;"><i class="fa fa-circle bar-circle"></i></div>
                 </div>
-                <span>Vuejs 2 (js)</span>
+                <span><a class="tooltipped white-text"  data-tooltip="Ce site est développé avec cette technologie"><i class="fa fa-info-circle"></i></a> Vuejs 2 (js)</span>
                 <div class="progress blue-grey">
                   <div class="determinate white" style="width: 85%;"><i class="fa fa-circle bar-circle"></i></div>
                 </div>
@@ -93,7 +95,8 @@
                 <div class="progress blue-grey">
                   <div class="determinate white" style="width: 50%;"><i class="fa fa-circle bar-circle"></i></div>
                 </div>
-                <div v-show="expand">
+                <transition name="fade">
+                  <div v-show="expand">
                   <span>Django (python)</span>
                   <div class="progress blue-grey">
                     <div class="determinate white" style="width: 50%;"><i class="fa fa-circle bar-circle"></i></div>
@@ -103,6 +106,7 @@
                     <div class="determinate white" style="width: 30%;"><i class="fa fa-circle bar-circle"></i></div>
                   </div>
                 </div>
+                </transition>
               </div>
               <div class="col m6 l4 s12 reveal">
                 <h3>Forces</h3>
@@ -143,3 +147,12 @@
     }
   }
 </script>
+
+<style>
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0
+  }
+</style>

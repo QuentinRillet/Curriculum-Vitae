@@ -19,7 +19,7 @@
               <div class="col hide-on-small-only m2 l1 ">
                   <div class="row">
                       <div class="col s12">
-                          <div class="toc-wrapper pinned" style="top: 100px">
+                          <div class="toc-wrapper pinned" style="top: 70px">
                               <menu-nav pid="nav-mobile-side" pclass="section table-of-contents left-align" ></menu-nav>
                           </div>
                       </div>
