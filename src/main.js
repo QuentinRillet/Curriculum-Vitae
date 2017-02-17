@@ -19,12 +19,18 @@ require('materialize-css/js/tooltip')
 Vue.use(VueI18n)
 Vue.use(Vuelidate)
 
-Vue.config.lang = 'fr_FR'
+Vue.config.lang = 'fr'
 axios.defaults.baseURL = 'https://quentinrillet.fr/api'
 
-import locales from './locales/fr'
+import fr from './locales/fr'
+import en from './locales/en'
 
-Object.keys(locales).forEach(function (lang) {
+let locales = {
+  fr,
+  en
+}
+
+Object.keys(locales).forEach((lang) => {
   Vue.locale(lang, locales[lang])
 })
 
