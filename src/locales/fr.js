@@ -42,6 +42,7 @@ export default {
         content: 'Chef de projet et analyste programmeur sur le développement et mise en place de la Base de Données Economiques et Sociales.',
         info: 'Toujours en cours de développement.'
       },
+      recommandation: 'Lettre de recommandation',
       web: 'Projet web professionnel',
       info: 'PHP / HTML / CSS / JS / MYSQL / Symfony / VueJs'
     },

@@ -59,6 +59,11 @@
                             </div>
                             <div class="row">
                                 <div class="col s12">
+                                    <a href="https://quentinrillet.fr/uploads/documents/recommendation-Quentin-Rillet.pdf" target="_blank"  type="pdf" class="btn btn-success waves-effect">{{ $t('experiences.professional.recommandation') }} <i class="fa fa-file-pdf-o"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
                                     <h5>{{ $t('experiences.professional.web') }} - <i>{{ $t('experiences.professional.info') }}</i></h5>
                                 </div>
                             </div>

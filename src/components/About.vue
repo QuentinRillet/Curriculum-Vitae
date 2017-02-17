@@ -13,7 +13,7 @@
                         <p>{{ $t('about.me') }}</p>
                         <p>{{ $t('about.presentation') }}</p>
                         <h5>{{ $t('about.quality') }}</h5>
-                        <a href="http://quentinrillet.fr/uploads/documents/CV-Resume-Quentin-Rillet.pdf"
+                        <a href="https://quentinrillet.fr/uploads/documents/CV-Resume-Quentin-Rillet.pdf"
                            class="btn btn-blue waves-effect" target="_blank">CV <i class="fa fa-file-pdf-o"></i></a>
                         <a href="#contact" class="btn btn-success waves-effect">Contact <i class="fa fa-comments"></i></a>
                     </div>

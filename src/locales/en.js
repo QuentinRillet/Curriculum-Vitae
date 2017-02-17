@@ -42,6 +42,7 @@ export default {
         content: 'Project manager and programmer/analyst on the development and the implementation of the Database Economic and social.',
         info: 'Still under development'
       },
+      recommandation: 'Letter of recommendation',
       web: 'Professional Web project',
       info: 'PHP / HTML / CSS / JS / MYSQL / Symfony / VueJs'
     },
