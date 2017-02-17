@@ -3,13 +3,13 @@
     <div class="">
       <div class="row">
         <div class="col l4 s12">
-          <h5 class="white-text">Restons connecté</h5>
+          <h5 class="white-text">{{ $t('foot.connexion') }}</h5>
           <ul>
             <li class="grey-text text-lighten-3">
-              <i class="fa fa-phone"></i> Phone: <a href="tel:+33619727002">+33 6 19 72 70 02</a>
+              <i class="fa fa-phone"></i> {{ $t('global.phone') }}: <a href="tel:+33619727002">+33 6 19 72 70 02</a>
             </li>
             <li class="grey-text text-lighten-3">
-              <i class="fa fa-envelope"></i> Email: <a href="mailto:quentin.rillet@gmail.com" target="_blank">
+              <i class="fa fa-envelope"></i> {{ $t('global.email') }}: <a href="mailto:quentin.rillet@gmail.com" target="_blank">
               quentin.rillet@gmail.com</a>
             </li>
             <li class="grey-text text-lighten-3">
@@ -31,7 +31,7 @@
           </ul>
         </div>
         <div class="col l4 s12">
-          <h5 class="white-text">Développé avec</h5>
+          <h5 class="white-text">{{ $t('foot.developWith') }}</h5>
           <p>
           <ul class="collection with-header">
             <li class="collection-item">
@@ -50,16 +50,16 @@
           </p>
         </div>
         <div class="col l4 s12">
-          <h5 class="white-text">Code disponible</h5>
+          <h5 class="white-text">{{ $t('foot.availableCode') }}</h5>
           <p>
           <ul class="collection with-header">
             <li class="collection-item">
-              <div>Dépot Git - Front-end <a href="https://github.com/QuentinRillet/Curriculum-Vitae"
+              <div>{{ $t('foot.git_deposit') }} - {{ $t('global.front_end') }} <a href="https://github.com/QuentinRillet/Curriculum-Vitae"
                                             class="secondary-content" target="_blank"><i class="material-icons">send</i></a>
               </div>
             </li>
             <li class="collection-item">
-              <div>Dépot Git - Back-end <a href="https://github.com/QuentinRillet/Curriculum-Vitae-Back"
+              <div>{{ $t('foot.git_deposit') }} - {{ $t('global.back_end') }} <a href="https://github.com/QuentinRillet/Curriculum-Vitae-Back"
                                            class="secondary-content" target="_blank"><i class="material-icons">send</i></a>
               </div>
             </li>

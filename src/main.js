@@ -5,16 +5,28 @@ import App from './App'
 import Vuelidate from 'vuelidate'
 import axios from 'axios'
 import ScrollReveal from 'scrollreveal'
+import VueI18n from 'vue-i18n'
+
 let $ = window.jQuery = require('jquery')
+
 import 'materialize-css/bin/materialize.css'
 import 'materialize-css/bin/materialize'
+
 require('materialize-css/js/velocity.min')
 require('materialize-css/js/toasts')
 require('materialize-css/js/tooltip')
 
+Vue.use(VueI18n)
 Vue.use(Vuelidate)
 
+Vue.config.lang = 'fr_FR'
 axios.defaults.baseURL = 'https://quentinrillet.fr/api'
+
+import locales from './locales/fr'
+
+Object.keys(locales).forEach(function (lang) {
+  Vue.locale(lang, locales[lang])
+})
 
 /* eslint-disable no-new */
 new Vue({

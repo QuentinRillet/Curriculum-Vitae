@@ -6,18 +6,18 @@
         <section id="interests" class="section scrollspy">
             <div class="row">
                 <div class="col m12">
-                    <h2><i class="fa fa-plane"></i> Centre d'interêts</h2>
+                    <h2><i class="fa fa-plane"></i> {{ $t('interests.name') }}</h2>
                     <div class="row">
                         <div class="col s12 l3 m6">
                             <div class="card reveal hoverable">
                                 <div class="card-content white-text blue  darken-2">
-                                    <span class="card-title">Miage Connection</span>
+                                    <span class="card-title">{{ $t('interests.miageCo.name') }}</span>
                                 </div>
                                 <div class="card-image">
                                     <img src="../assets/miageco.jpg" class="responsive-img">
                                 </div>
                                 <div class="card-content">
-                                    <p>Administrateur de MIAGE CONNECTION</p>
+                                    <p>{{ $t('interests.miageCo.p1') }}</p>
                                 </div>
                                 <a href="https://www.miage.net/" target="_blank">
                                     <div class="card-action hoverable">MIAGE CO</div>
@@ -27,14 +27,14 @@
                         <div class="col s12 l3 m6">
                             <div class="card reveal-1 hoverable">
                                 <div class="card-content white-text teal lighten-3">
-                                    <span class="card-title">Miage Plus</span>
+                                    <span class="card-title">{{ $t('interests.miagePlus.name') }}</span>
                                 </div>
                                 <div class="card-image">
                                     <img src="../assets/miageplus.png" class="responsive-img">
                                 </div>
                                 <div class="card-content">
-                                    <p>Président du Bureau des élèves</p>
-                                    <p><i>Année 2016 - 2017</i></p>
+                                    <p>{{ $t('interests.miagePlus.p1') }}</p>
+                                    <p><i>{{ $t('interests.miagePlus.info') }}</i></p>
                                 </div>
                                 <a href="https://www.facebook.com/miageplusamiens/" target="_blank">
                                     <div class="card-action hoverable">MIAGE PLUS</div>
@@ -44,16 +44,16 @@
                         <div class="col s12 l3 m6">
                             <div class="card reveal-2 hoverable">
                                 <div class="card-content white-text red lighten-1">
-                                    <span class="card-title">Badminton</span>
+                                    <span class="card-title">{{ $t('interests.badminton.name') }}</span>
                                 </div>
                                 <div class="card-image">
                                     <img src="../assets/badminton.jpg" class="responsive-img">
                                 </div>
                                 <div class="card-content">
-                                    <p>Ancien membre de l'équipe Nationale 3</p>
-                                    <p><i>Saison 2012- 2013</i></p>
+                                    <p>{{ $t('interests.badminton.p1') }}</p>
+                                    <p><i>{{ $t('interests.badminton.date') }}</i></p>
                                     <p>-</p>
-                                    <p>Toujours joueur en loisir actuellement</p>
+                                    <p>{{ $t('interests.badminton.p2') }}</p>
                                 </div>
                                 <a href="http://usl-badminton.fr/" target="_blank">
                                     <div class="card-action hoverable">USL-Badminton</div>
@@ -63,13 +63,13 @@
                         <div class="col s12 l3 m6 ">
                             <div class="card reveal-3 hoverable">
                                 <div class="card-content white-text lime lighten-2">
-                                    <span class="card-title">Voyages</span>
+                                    <span class="card-title">{{ $t('interests.travel.name') }}</span>
                                 </div>
                                 <div class="card-image">
                                     <img src="../assets/voyage.jpg" class="responsive-img">
                                 </div>
                                 <div class="card-content">
-                                    <p>Plusieurs voyage notamment en Europe centrale (République Tchèque, Croatie, Allemagne, Belgique, Pays-Bas)</p>
+                                    <p>{{ $t('interests.travel.p1') }}</p>
                                 </div>
                             </div>
                         </div>
