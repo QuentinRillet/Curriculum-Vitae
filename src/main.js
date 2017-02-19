@@ -6,6 +6,8 @@ import Vuelidate from 'vuelidate'
 import axios from 'axios'
 import ScrollReveal from 'scrollreveal'
 let $ = window.jQuery = require('jquery')
+
+require('font-awesome/css/font-awesome.css')
 import 'materialize-css/bin/materialize.css'
 import 'materialize-css/bin/materialize'
 require('materialize-css/js/velocity.min')
