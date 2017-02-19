@@ -46,7 +46,7 @@
                     <button class="btn waves-effect waves-light" :class="{disabled: sending}" type="submit" name="action" @click.prevent="envoyer">{{ $t('contact.send') }}
                         <i class="material-icons right">send</i>
                     </button>
-                    <div class="preloader-wrapper small" :class="{active: sending}">
+                    <div v-show="sending" class="preloader-wrapper small active">
                       <div class="spinner-layer">
                         <div class="circle-clipper right">
                           <div class="circle"></div>

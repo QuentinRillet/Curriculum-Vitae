@@ -65,6 +65,15 @@
             </li>
           </ul>
           </p>
+
+          <p><h5 class="white-text">{{ $t('foot.share') }}</h5>
+            <button @click.prevent="linkedin()"class="waves-effect waves-light btn">
+              Linked<i class="fa fa-linkedin"></i>
+            </button>
+            <button @click.prevent="twitter()" class="waves-effect waves-light btn">
+              <i class="fa fa-twitter"></i> twitter
+            </button>
+          </p>
         </div>
       </div>
     </div>
@@ -77,3 +86,33 @@
     </div>
   </footer>
 </template>
+
+<script>
+  let popupCenter = function (url, title, width, height) {
+    let popupWidth = width || 640
+    let popupHeight = height || 320
+    let windowLeft = window.screenLeft || window.screenX
+    let windowTop = window.screenTop || window.screenY
+    let windowWidth = window.innerWidth || document.documentElement.clientWidth
+    let windowHeight = window.innerHeight || document.documentElement.clientHeight
+    let popupLeft = windowLeft + windowWidth / 2 - popupWidth / 2
+    let popupTop = windowTop + windowHeight / 2 - popupHeight / 2
+    let popup = window.open(url, title, 'scrollbars=yes, width=' + popupWidth + ', height=' + popupHeight + ', top=' + popupTop + ', left=' + popupLeft)
+    popup.focus()
+    return true
+  }
+export default {
+    methods: {
+      twitter () {
+        let url = 'https://quentinrillet.fr'
+        let shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(document.title)}&via=RilletQuentin&url=${encodeURIComponent(url)}`
+        popupCenter(shareUrl, 'Partager sur Twitter')
+      },
+      linkedin () {
+        let url = 'https://quentinrillet.fr'
+        let shareUrl = `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(url)}`
+        popupCenter(shareUrl, 'Partager sur Linkedin')
+      }
+    }
+}
+</script>

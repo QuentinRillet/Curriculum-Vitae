@@ -156,6 +156,7 @@ export default {
     connexion: 'Stay Connected',
     developWith: 'Developed with',
     availableCode: 'Code available',
-    git_deposit: 'Git Depot'
+    git_deposit: 'Git Depot',
+    share: 'Share'
   }
 }
