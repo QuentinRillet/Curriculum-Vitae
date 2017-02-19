@@ -20,6 +20,7 @@ export default {
   },
   about: {
     me: 'Bonjour, je suis Quentin RILLET.',
+    accroche: 'Chef de projet, Analyste programmeur',
     presentation: 'Etudiant en dernière année de Master MIAGE (Méthode Informatique Appliquée à la Gestion de l\'Entreprise)',
     quality: 'Passionné – Polyvalent – Autonome'
   },

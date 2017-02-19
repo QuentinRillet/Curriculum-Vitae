@@ -20,6 +20,7 @@ export default {
   },
   about: {
     me: 'Hello, I\'m Quentin RILLET.',
+    accroche: 'Project manager, Programmer/analyst',
     presentation: 'Studying last year of Master\'s degree MIAGE (IT Method Applied to the Management of the Company)',
     quality: 'Passionate - Multi-purpose - Autonomous'
   },
@@ -42,7 +43,7 @@ export default {
         content: 'Project manager and programmer/analyst on the development and the implementation of the Database Economic and social.',
         info: 'Still under development'
       },
-      recommandation: 'Letter of recommendation',
+      recommandation: 'Recommendation letter',
       web: 'Professional Web project',
       info: 'PHP / HTML / CSS / JS / MYSQL / Symfony / VueJs'
     },
@@ -50,13 +51,13 @@ export default {
       name: 'Academic',
       force4: {
         name: 'Power 4, 3D',
-        content: 'Programming of the game power 4 in 3 dimensions with implementation of the algorithm Min-Max for the artificial intelligence.',
+        content: 'Programming of the game Connect 4 in 3 dimensions with implementation of the algorithm Min-Max for the artificial intelligence.',
         info: 'DUT project',
         language_info: 'Java, JMonkey'
       },
       sated: {
         name: 'Management of association - SATED',
-        content: 'The association proposes to families d \'enfants autistic children and TED of the weekends, the stays, entertaining days...',
+        content: 'The association offer weekends and holidays to families who have autistic children',
         content2: 'The project sets up a way of organization and management of families within the association SATED to relieve the administration and centralize the requests.',
         info: 'MIAGE project',
         language_info: 'C#, ASP.NET'
@@ -69,7 +70,7 @@ export default {
       name: 'Master\'s degree MIAGE',
       date: '2015 - 2017',
       p1: 'French level university degree Bac+5, allying a double competence in computing and in management, intended to train expert business executives in engineering and management of information systems.',
-      p2: 'Realized in alternation to',
+      p2: 'Realized in alternation with',
       p3: 'Master\'s degree',
       note: 'Good'
     },
@@ -89,7 +90,7 @@ export default {
       name: 'High school Jacques Prévert',
       date: '2006 - 2011',
       p1: 'Scientific high school diploma,',
-      info: 'Speciality: science of the Life and the Earth'
+      info: 'Speciality: Biology and geology'
     },
     mention: 'Mention'
   },

@@ -9,7 +9,7 @@
                     <div class="z-depth-5 blue lighten-5" style="padding-bottom: 40px">
                         <img src="../assets/moi.jpg" class="responsive-img circle" style="max-width: 20%; margin-top:-70px">
                         <h2>RILLET Quentin</h2>
-                        <span><h4>Chef de projet, Analyste programmeur</h4></span>
+                        <span><h4>{{ $t('about.accroche') }}</h4></span>
                         <p>{{ $t('about.me') }}</p>
                         <p>{{ $t('about.presentation') }}</p>
                         <h5>{{ $t('about.quality') }}</h5>
