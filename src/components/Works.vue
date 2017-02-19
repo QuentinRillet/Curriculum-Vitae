@@ -5,12 +5,12 @@
     <div>
         <section id="works" class="section scrollspy">
                 <div class="row " style="padding: 40px">
-                    <h2><i class="fa fa-microchip"></i> Expériences</h2>
+                    <h2><i class="fa fa-microchip"></i> {{ $t('experiences.name') }}</h2>
                     <!-- Experience professionnelle -->
                     <div class="row z-depth-5 blue-grey lighten-5" style="padding-top: 40px">
                         <div class="col s12">
-                            <h4><i class="fa fa-handshake-o"></i> Professionnelle</h4>
-                            <p>Projets réalisés au sein d'I.E.S pendant mes 3 ans d'alternance.</p>
+                            <h4><i class="fa fa-handshake-o"></i> {{ $t('experiences.professional.name') }}</h4>
+                            <p>{{ $t('experiences.professional.projects') }}</p>
                             <a href="http://i-e-s.fr/" target="_blank">
                                 <img class="responsive-img" src="../assets/logo-ies.png" style="max-width:20%">
                             </a>
@@ -18,16 +18,16 @@
                                 <div class="col s12 m6 l4">
                                     <div class="card hoverable reveal">
                                         <div class="card-content white-text blue-grey">
-                                            <span class="card-title">AZTEKA</span>
+                                            <span class="card-title">{{ $t('experiences.professional.azteka.name') }}</span>
                                         </div>
                                         <div class="card-content">
                                             <img class="responsive-img" src="../assets/logo-azteka.png">
-                                            <p>Outil de gestion du management axé sur la santé, la sécurité et l'environnement.</p>
+                                            <p>{{ $t('experiences.professional.azteka.content') }}</p>
                                         </div>
 
                                         <a href="http://azteka.management/" target="_blank">
                                             <div class="card-action">
-                                                Site web
+                                                {{ $t('experiences.professional.azteka.website') }}
                                             </div>
                                         </a>
 
@@ -36,66 +36,71 @@
                                 <div class="col s12 m6 l4">
                                     <div class="card hoverable reveal-1">
                                         <div class="card-content white-text blue-grey">
-                                            <span class="card-title">CRM</span>
+                                            <span class="card-title">{{ $t('experiences.professional.crm.name') }}</span>
                                         </div>
                                         <div class="card-content">
                                             <img class="responsive-img" src="../assets/logo-crm.png">
-                                            <p>Chef de projet et analyste programmeur sur l'outil de gestion de la relation client. Programme utilisé uniquement en interne.</p>
+                                            <p>{{ $t('experiences.professional.crm.content') }}</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col s12 m6 l4">
                                     <div class="card hoverable reveal-2">
                                         <div class="card-content white-text  blue-grey">
-                                            <span class="card-title">BDES</span>
+                                            <span class="card-title">{{ $t('experiences.professional.bdes.name') }}</span>
                                         </div>
                                         <div class="card-content">
                                             <img class="responsive-img" src="../assets/bdes.jpg" style="max-width: 40%">
-                                            <p>Chef de projet et analyste programmeur sur le développement et mise en place de la Base de Données Economiques et Sociales.</p>
-                                            <p><i>Toujours en cours de développement.</i></p>
+                                            <p>{{ $t('experiences.professional.bdes.content') }}</p>
+                                            <p><i>{{ $t('experiences.professional.bdes.info') }}</i></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col s12">
-                                    <h5>Projet web professionel - <i>PHP / HTML / CSS / JS / MYSQL / Symfony / VueJs</i></h5>
+                                    <a href="https://quentinrillet.fr/uploads/documents/recommendation-Quentin-Rillet.pdf" target="_blank"  type="pdf" class="btn btn-success waves-effect">{{ $t('experiences.professional.recommandation') }} <i class="fa fa-file-pdf-o"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>{{ $t('experiences.professional.web') }} - <i>{{ $t('experiences.professional.info') }}</i></h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Experience scolaire -->
                     <div class="row z-depth-5 blue-grey lighten-5" style="padding-top: 40px">
-                        <h4><i class="fa fa-laptop"></i> Scolaire</h4>
+                        <h4><i class="fa fa-laptop"></i> {{ $t('experiences.school.name') }}</h4>
                         <div class="col s12 m6">
                             <div class="card hoverable reveal">
                                 <div class="card-content white-text blue-grey">
-                                    <span class="card-title">Puissance 4, 3D</span>
+                                    <span class="card-title">{{ $t('experiences.school.force4.name') }}</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>Programmation du jeu puissance 4 en 3 dimensions avec implémentation de l'algorithme Min-Max pour l'intelligence artificielle.</p>
+                                    <p>{{ $t('experiences.school.force4.content') }}</p>
                                     <p>-</p>
-                                    <p><i>Projet DUT</i></p>
+                                    <p><i>{{ $t('experiences.school.force4.info') }}</i></p>
                                 </div>
                                 <div class="card-action">
-                                    <p>Langage: <i><em>Java, JMonkey</em></i></p>
+                                    <p>{{ $t('global.language') }}: <i><em>{{ $t('experiences.school.force4.language_info') }}</em></i></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s12 m6">
                             <div class="card hoverable reveal-1">
                                 <div class="card-content white-text blue-grey">
-                                    <span class="card-title">Gestion d'association - SATED</span>
+                                    <span class="card-title">{{ $t('experiences.school.sated.name') }}</span>
                                 </div>
                                 <div class="card-content">
                                     <img class="responsive-img" src="../assets/Sated.png" style="max-width: 40%">
-                                    <p>L'association propose aux familles d'enfants autistes et TED des weekends, des séjours, des journées récréatives...</p>
-                                    <p>Le projet met en place un moyen d'organisation et de gestion des familles au sein de l'association SATED afin d'alléger l'administration et centraliser les demandes.</p>
+                                    <p>{{ $t('experiences.school.sated.content') }}</p>
+                                    <p>{{ $t('experiences.school.sated.content2') }}</p>
                                     <p>-</p>
-                                    <p><i>Projet MIAGE</i></p>
+                                    <p><i>{{ $t('experiences.school.sated.info') }}</i></p>
                                 </div>
                                 <div class="card-action">
-                                    <p>Langage: <i><em>C#, ASP.NET</em></i></p>
+                                    <p>{{ $t('global.language') }}: <i><em>{{ $t('experiences.school.sated.language_info') }}</em></i></p>
                                 </div>
                             </div>
                         </div>

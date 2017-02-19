@@ -14,12 +14,12 @@
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1 hoverable"><h2><a
                                     href="http://miage.mastersticamiens.fr/" target="_blank"
-                                    alt="MIAGE Amiens" title="MIAGE Amiens">Master MIAGE - Amiens</a></h2><span>2015 - 2017</span>
-                                <p>Diplôme universitaire français de niveau Bac+5, alliant une double compétence en informatique et en gestion, destiné à former des cadres d'entreprise experts en ingénierie et management des systèmes d'information.</p>
+                                    alt="MIAGE Amiens" title="MIAGE Amiens">{{ $t('education.master.name')}} - Amiens</a></h2><span>{{ $t('education.master.date')}}</span>
+                                <p>{{ $t('education.master.p1')}}</p>
                                 <p>-</p>
-                                <p>Réalisé en alternance chez <a href="http://i-e-s.fr">I.E.S</a></p>
+                                <p>{{ $t('education.master.p2')}} <a href="http://i-e-s.fr">I.E.S</a></p>
                                 <p>-</p>
-                                <p>Maitrise<i> Mention : <b>Bien</b></i></p>
+                                <p>{{ $t('education.master.p3')}}<i> {{ $t('education.mention')}} : <b>{{ $t('education.master.note')}}</b></i></p>
                             </div>
                         </div>
                         <div class="cd-timeline-block reveal ">
@@ -28,12 +28,12 @@
                                     href="https://www.u-picardie.fr/catalogue-formations/co/Catalogue_UPJV/co/LP_ResComm_ResGenieInfo.html"
                                                                                          target="_blank"
                                                                                          alt="LP RGI"
-                                                                                         title="LP RGI">Licence professionnelle - Amiens</a></h2><span>2014 - 2015</span>
-                                <p>Réseaux et Génie Informatique, Développement d'applications de génie informatique dans un contexte de ressources organisées en réseaux.</p>
+                                                                                         title="LP RGI">{{ $t('education.licence.name')}} - Amiens</a></h2><span>{{ $t('education.licence.date')}}</span>
+                                <p>{{ $t('education.licence.p1')}}</p>
                                 <p>-</p>
-                                <p>Réalisé en alternance chez <a href="http://i-e-s.fr">I.E.S</a></p>
+                                <p>{{ $t('education.licence.p2')}} <a href="http://i-e-s.fr">I.E.S</a></p>
                                 <p>-</p>
-                                <p><i>Mention : <b>Bien</b></i></p>
+                                <p><i>{{ $t('education.mention')}} : <b>{{ $t('education.licence.note')}}</b></i></p>
                             </div>
                         </div>
                         <div class="cd-timeline-block reveal ">
@@ -42,16 +42,16 @@
                                     href="https://uniform.unicaen.fr/catalogue/formation/dut/5267-dut-informatique?s=iut-caen&r=1291042344184"
                                                                                          target="_blank"
                                                                                          alt="DUT Caen"
-                                                                                         title="DUT Caen">DUT Informatique - Caen</a></h2><span>2011 - 2015</span>
-                                <p>Formation généraliste en informatique visant à concevoir, inventer ou perfectionner des logiciels destinés à des entreprises.</p>
+                                                                                         title="DUT Caen">{{ $t('education.dut.name')}} - Caen</a></h2><span>{{ $t('education.dut.date')}}</span>
+                                <p>{{ $t('education.dut.p1')}}</p>
                             </div>
                         </div>
                         <div class="cd-timeline-block reveal">
                             <div class="cd-timeline-img"></div>
                             <div class="cd-timeline-content col m5 s12 z-depth-1 hoverable"><h2><a
                                     href="http://lycees.ac-rouen.fr/prevert/" target="_blank"
-                                    alt="Lycée Polyvalent Jacques Prévert - Pont-Audemer" title="Lycée Polyvalent Jacques Prévert - Pont-Audemer">Lycée Polyvalent Jacques Prévert - Pont-Audemer</a></h2><span>2006 - 2011</span>
-                                <p>Baccalaureat scientifique, <i>spécialité : Science de la Vie et de la Terre</i>. </p>
+                                    alt="Lycée Polyvalent Jacques Prévert - Pont-Audemer" title="Lycée Polyvalent Jacques Prévert - Pont-Audemer">{{ $t('education.college.name')}} - Pont-Audemer</a></h2><span>{{ $t('education.college.date')}}</span>
+                                <p>{{ $t('education.college.p1')}} <i>{{ $t('education.college.info')}}</i>. </p>
                             </div>
                         </div>
                     </div>
@@ -59,15 +59,6 @@
         </section>
     </div>
 </template>
-
-<script>
-export default{
-  data () {
-    return { }
-  }
-}
-
-</script>
 
 <style>
     /* --------------------------------
