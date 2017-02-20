@@ -13,9 +13,9 @@ export default {
   menu: {
     about: 'À mon sujet',
     works: 'Expériences',
-    education: 'Écoles',
+    education: 'Diplômes',
     skills: 'Compétences',
-    interests: 'Loisirs',
+    interests: 'Centres d\'intérêts',
     contact: 'Contactez-moi'
   },
   about: {
@@ -48,7 +48,7 @@ export default {
       info: 'PHP / HTML / CSS / JS / MYSQL / Symfony / VueJs'
     },
     school: {
-      name: 'Scolaire',
+      name: 'Universitaire',
       force4: {
         name: 'Puissance 4, 3D',
         content: 'Programmation du jeu puissance 4 en 3 dimensions avec implémentation de l\'algorithme Min-Max pour l\'intelligence artificielle.',
@@ -65,11 +65,11 @@ export default {
     }
   },
   education: {
-    name: 'Écoles',
+    name: 'Diplômes',
     master: {
       name: 'Master MIAGE',
       date: '2015 - 2017',
-      p1: 'Diplôme universitaire français de niveau Bac+5, alliant une double compétence en informatique et en gestion, destiné à former des cadres d\'entreprise experts en ingénierie et management des systèmes d\'information.',
+      p1: 'Diplôme universitaire français de niveau Bac+5, alliant une double compétence en informatique et en gestion de projet, destiné à former des cadres d\'entreprise experts en ingénierie et management des systèmes d\'information.',
       p2: 'Réalisé en alternance chez',
       p3: 'Maitrise',
       note: 'Bien'
@@ -118,10 +118,10 @@ export default {
     }
   },
   interests: {
-    name: 'Centre d\'interêts',
+    name: 'Centre d\'intérêts',
     miageCo: {
       name: 'Miage Connection',
-      p1: 'Administrateur de MIAGE CONNECTION.'
+      p1: 'Membre du conseil de MIAGE CONNECTION.'
     },
     miagePlus: {
       name: 'Miage Plus',
