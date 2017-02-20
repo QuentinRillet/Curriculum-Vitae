@@ -50,14 +50,14 @@ export default {
     school: {
       name: 'Academic',
       force4: {
-        name: 'Power 4, 3D',
+        name: 'Connect 4, 3D',
         content: 'Programming of the game Connect 4 in 3 dimensions with implementation of the algorithm Min-Max for the artificial intelligence.',
         info: 'DUT project',
         language_info: 'Java, JMonkey'
       },
       sated: {
         name: 'Management of association - SATED',
-        content: 'The association offer weekends and holidays to families who have autistic children',
+        content: 'The association offers weekends and holidays to families who have autistic children',
         content2: 'The project sets up a way of organization and management of families within the association SATED to relieve the administration and centralize the requests.',
         info: 'MIAGE project',
         language_info: 'C#, ASP.NET'

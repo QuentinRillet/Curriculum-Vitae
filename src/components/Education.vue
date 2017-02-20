@@ -6,7 +6,7 @@
         <section id="education" class="section scrollspy">
                 <div class="row">
                     <div class="section-title">
-                        <h2><i class="fa fa-graduation-cap"></i> Écoles</h2>
+                        <h2><i class="fa fa-graduation-cap"></i> {{ $t('education.name') }}</h2>
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
