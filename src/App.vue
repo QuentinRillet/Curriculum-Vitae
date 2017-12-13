@@ -33,18 +33,18 @@
 
 
 <script>
-import Navigate from './components/Navigate'
-import MenuNav from './components/Menu'
-import About from './components/About'
-import Works from './components/Works'
-import Education from './components/Education'
-import Skills from './components/Skills'
-import Interests from './components/Interests'
-import Contact from './components/Contact'
-import Foot from './components/Foot'
+import Navigate from "./components/Navigate";
+import MenuNav from "./components/Menu";
+import About from "./components/About";
+import Works from "./components/Works";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Interests from "./components/Interests";
+import Contact from "./components/Contact";
+import Foot from "./components/Foot";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Navigate,
     MenuNav,
@@ -56,16 +56,21 @@ export default {
     Contact,
     Foot
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: #e3e3e3
+  background: #e3e3e3;
+}
+
+body {
+  width: 100%;
+  height: 100%;
 }
 </style>

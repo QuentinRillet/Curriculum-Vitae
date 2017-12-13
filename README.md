@@ -8,6 +8,9 @@
 # install dependencies
 npm install
 
+# watch typescript file
+tsc watch -tsconfig.json 
+
 # serve with hot reload at localhost:8080
 npm run dev
 

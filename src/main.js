@@ -15,7 +15,7 @@ import en from './locales/en'
 
 let $ = window.jQuery = require('jquery')
 require('font-awesome/css/font-awesome.css')
-
+require('babylonjs')
 Vue.use(VueI18n)
 Vue.use(Vuelidate)
 
@@ -23,41 +23,53 @@ axios.defaults.baseURL = 'https://quentinrillet.fr/api'
 
 
 let messages = {
-  fr,
-  en
+    fr,
+    en
 }
 
 const i18n = new VueI18n({
-  locale: 'fr', // set locale
-  messages, // set locale messages
-}) 
+    locale: 'fr', // set locale
+    messages, // set locale messages
+})
 
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  i18n,
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: { App }
+    i18n,
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: {
+        App
+    }
 })
 
 /* configuration reveal plugin */
 window.sr = ScrollReveal()
 let baseDuration = 900
-window.sr.reveal('.reveal', { duration: baseDuration })
-window.sr.reveal('.reveal-1', { duration: baseDuration + 300 })
-window.sr.reveal('.reveal-2', { duration: baseDuration + 600 })
-window.sr.reveal('.reveal-3', { duration: baseDuration + 900 })
+window.sr.reveal('.reveal', {
+    duration: baseDuration
+})
+window.sr.reveal('.reveal-1', {
+    duration: baseDuration + 300
+})
+window.sr.reveal('.reveal-2', {
+    duration: baseDuration + 600
+})
+window.sr.reveal('.reveal-3', {
+    duration: baseDuration + 900
+})
 
 $('.scrollspy').scrollSpy({
-  scrollOffset: 25
+    scrollOffset: 25
 })
 $('.button-collapse').sideNav({
-  closeOnClick: true,
-  draggable: true
+    closeOnClick: true,
+    draggable: true
 })
 
-$('.tooltipped').tooltip({delay: 50})
+$('.tooltipped').tooltip({
+    delay: 50
+})

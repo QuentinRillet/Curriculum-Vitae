@@ -15,7 +15,7 @@
                                 <img class="responsive-img" src="../assets/logo-keyveo.jpg" style="max-width:20%">
                             </a>
                             <div class="row">
-                                <div class="col s12 m6 l6">
+                                <div class="col s12 m6 l4">
                                     <div class="card hoverable reveal">
                                         <div class="card-content white-text blue-grey">
                                             <span class="card-title">{{ $t('experiences.professional.keyveo.renault.name') }}</span>
@@ -26,40 +26,39 @@
                                             <p>{{ $t('experiences.professional.keyveo.renault.content2') }}</p>
                                         </div>
 
-                                        <a href="http://azteka.management/" target="_blank">
+                                        <!-- <a href="#" target="_blank">
                                             <div class="card-action">
                                                 {{ $t('experiences.professional.keyveo.name') }}
                                             </div>
-                                        </a>
+                                        </a> -->
 
                                     </div>
                                 </div>
-                                <div class="col s12 m6 l6">
+                                <div class="col s12 m6 l4">
                                     <div class="card hoverable reveal-1">
                                         <div class="card-content white-text blue-grey">
                                             <span class="card-title">{{ $t('experiences.professional.keyveo.EDF.name') }}</span>
                                         </div>
                                         <div class="card-content">
                                             <img class="responsive-img" src="../assets/edf-logo.png">
-                                            <p>{{ $t('experiences.professional.keyveo.edf.content') }}</p>
+                                            <p>{{ $t('experiences.professional.keyveo.EDF.content') }}</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12 m12 l12">
+                                <div class="col s12 m6 l4">
                                     <div class="card hoverable reveal">
                                         <div class="card-content white-text blue-grey">
                                             <span class="card-title">{{ $t('experiences.professional.keyveo.microsoft.name') }}</span>
                                         </div>
-                                        <div class="card-content">
-                                            <canvas id="render"></canvas>
+                                        <div class="card-content" style="height: 100%, width: 100%">
+                                            <canvas id="render" style="height: 100%, width: 100%"></canvas>
+                                            <button @click="fullScreen" class="waves-effect waves-light btn">Full Screen</button>
                                             <p>{{ $t('experiences.professional.keyveo.microsoft.content') }}</p>
                                         </div>
 
-                                        <a href="http://azteka.management/" target="_blank">
+                                        <a href="https://www.babylonjs.com/" target="_blank">
                                             <div class="card-action">
-                                                {{ $t('experiences.professional.keyveo.name') }}
+                                                BabylonJs
                                             </div>
                                         </a>
 
@@ -168,32 +167,22 @@
 </template>
 
 <script>
-    import { Scene, Engine, ArcRotateCamera, Vector3 } from "babylonjs";
-    export default {
-      mounted() {
-        let canvas = document.getElementById("render");
-        let engine = new Engine(canvas, true);
-        var createScene = function() {
-          var scene = new Scene(engine);
-
-          let assetsManager = new BABYLON.AssetsManager(this._scene);
-          assetsManager.addMeshTask("house", "", "./assets/3d/", "house.babylon");
-          assetsManager.onFinish = tasks => {
-            this.run();
-          };
-          assetsManager.load();
-          return scene;
-        };
-
-        let scene = createScene();
-
-        engine.runRenderLoop(() => {
-          scene.render();
-        });
-
-        window.addEventListener("resize", () => {
-          engine.resize();
-        });
-      }
+import { Game } from "../js/Game";
+export default {
+  mounted() {
+    this.game = new Game(document.getElementById("render"));
+  },
+  data() {
+    return {
+      game: null,
+      showScene: false
     };
+  },
+  methods: {
+    fullScreen() {
+      this.showScene = false;
+      this.game.fullScreen();
+    }
+  }
+};
 </script>
