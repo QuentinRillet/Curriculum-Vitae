@@ -133,7 +133,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .page-footer {
   color: #2c3e50;
 }
