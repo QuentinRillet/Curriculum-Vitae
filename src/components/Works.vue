@@ -186,3 +186,11 @@ export default {
   }
 };
 </script>
+
+<style>
+#render {
+  max-width: -moz-available;
+  max-width: -webkit-fill-available;
+}
+</style>
+
